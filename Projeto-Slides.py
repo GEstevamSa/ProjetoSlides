@@ -1,26 +1,16 @@
 import cv2
 import os
 
-Caminho_Arquivo = 'E:\chris\Documents\FACENS\Processamentos de Imagens\Aula_03\img'
-
+Caminho_Arquivo = '..\ProjetoSlides\img'
 tamanho = 1500
-
 largura = 1000
-
 tempo_transicao = 2
-
 tempo_imagem = 3
-
 nome_janela="Image Slide Show"
-
 formatos_suportados = ('.png', '.jpg', '.jpeg', '.bmp', '.dib', '.jpe', '.jp2', '.pgm', '.tiff', '.tif', '.ppm')
-
 esc = 27
-
 slides = 10
-
 tamanho_minimo = 0
-
 tamanho_maximo = 1
 
 def passos(comeca, pausa, para):
