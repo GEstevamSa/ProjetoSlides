@@ -4,14 +4,14 @@ import os
 Caminho_Arquivo = '..\ProjetoSlides\img'
 tamanho = 1500
 largura = 1000
-tempo_transicao = 2
-tempo_imagem = 3
-nome_janela="Image Slide Show"
+tempo_transicao = 2	
+tempo_imagem = 10
+nome_janela="Slide Show"
 formatos_suportados = ('.png', '.jpg', '.jpeg', '.bmp', '.dib', '.jpe', '.jp2', '.pgm', '.tiff', '.tif', '.ppm')
 esc = 27
 slides = 10
 tamanho_minimo = 0
-tamanho_maximo = 1
+tamanho_maximo = 3
 
 def passos(comeca, pausa, para):
 	range = comeca
